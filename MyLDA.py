@@ -5,7 +5,7 @@ import jieba.posseg
 import numpy as np
 import lda
 from Tools import *
-import SQLCommentSave
+
 
 
 class LDAModel:
@@ -293,7 +293,7 @@ if __name__ == '__main__':
     for movie in MovieList:
         try:
             #SaveComments
-            SQLCommentSave.SaveComments(movie)
+            SaveComments(movie)
             #Seg
             Seg(movie)
         except Exception,e:
