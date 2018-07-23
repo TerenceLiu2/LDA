@@ -12,8 +12,9 @@ Main Code
 - MySQLdb
 # Data Structure
 
-SQL
- movie_id|comment_id|content
+SQL <br>
+
+ movie_id|com_id|content|
 :--:|:--:|:--:
 1|1|Good
 
