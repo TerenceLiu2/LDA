@@ -1,7 +1,5 @@
 #coding=utf-8
 
-import jieba  # 结巴分词工具
-import jieba.posseg
 import numpy as np
 import lda
 from Tools import *
